@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+.body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block__item {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+   
+}
+
+.first {
+    background-image: url(../images/penal1.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.second {
+    background-image: url(../images/pack.jpg) ;
+    
+}
+
+.third {
+    background-image: url(../images/et_fj.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourth {
+    background-image: url(../images/et_ij.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fifth {
+    background-image: url(../images/et_fz.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sixth {
+    background-image: url(../images/et_iz.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seventh {
+    background-image: url(../images/pack_fj.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.eighth {
+    background-image: url(../images/pack_ij.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ninth {
+    background-image: url(../images/pack_fz.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tenth {
+    background-image: url(../images/pack_iz.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.eleventh {
+    background-image: url(../images/pack_antisept.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.twelfth {
+    background-image: url(../images/inf_fj.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thirteenth {
+    background-image: url(../images/inf_ij.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourteenth {
+    background-image: url(../images/inf_iz.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fifteenth {
+    background-image: url(../images/inf_antisept.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul, li {
+    /* list-style: none; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 26px;
+}
+.infoblock {
+    position: absolute;
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 100px;
+    transition:  all 4s, left 4s, opacity 1s;
+}
+.infoblock:hover {
+   opacity: 1;
+
+}
+.infoblock p {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 40px;
+}
